@@ -14,6 +14,8 @@
 |👎|`:-1:`|:-1:|
 |👏|`:clap:`|:clap:|
 
+For a full list of available emoji and codes, see the [Emoji-Cheat-Sheet](https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md).
+
 ### 文本格式
 
 #### 行内代码（inline code）
