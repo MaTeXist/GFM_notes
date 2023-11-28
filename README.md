@@ -28,6 +28,32 @@ Here are the currently supported color models.
 
 ~~我被删除了~~
 
+### 列表（list）
+
+#### 嵌套列表（nested list）
+
+Type space characters in front of your nested list item until the list marker character (`-` or `*`) lies directly below the first character of the text in the item above it.
+
+In this example, you could add a nested list item under the list item 100. First list item by indenting the nested list item a minimum of five spaces, since there are five characters (100 .) before First list item.
+
+```Markdown
+100. First list item
+     - First nested list item
+```
+
+100. First list item
+     - First nested list item
+    
+#### 任务列表
+
+```Markdown
+- [ ] 未选中；
+- [x] 已选中。
+```
+
+- [ ] 未选中；
+- [x] 已选中。
+
 ### 图像（image）
 
 GitHub supports embedding images into your issues, pull requests, discussions, comments and .md files. You can display an image from your repository, add a link to an online image, or upload an image.
@@ -89,3 +115,6 @@ A relative link is a link that is relative to the current file. For example, if 
 GitHub will automatically transform your relative link or image path based on whatever branch you're currently on, so that the link or path always works. The path of the link will be relative to the current file. Links starting with / will be relative to the repository root. You can use all relative link operands, such as `./` and `../`. `./`表示当前目录，`../`表示上级目录。
 
 Relative links are easier for users who clone your repository. Absolute links may not work in clones of your repository - we recommend using relative links to refer to other files within your repository.
+
+1. sldkfj
+   lkjsdf 
