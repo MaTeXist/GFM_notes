@@ -118,7 +118,7 @@ Relative links are easier for users who clone your repository. Absolute links ma
 
 ### Mentioning people and teams
 
-You can mention a person or team on GitHub by typing @ plus their username or team name. This will trigger a notification and bring their attention to the conversation. People will also receive a notification if you edit a comment to mention their username or team name. For more information about notifications, see "About notifications."
+You can mention a person or team on GitHub by typing `@` plus their username or team name. This will trigger a notification and bring their attention to the conversation. People will also receive a notification if you edit a comment to mention their username or team name. For more information about notifications, see "About notifications."
 
 > Note: A person will only be notified about a mention if the person has read access to the repository and, if the repository is owned by an organization, the person is a member of the organization.
 
@@ -127,3 +127,7 @@ You can mention a person or team on GitHub by typing @ plus their username or te
 ```
 
 @jacksalad What do you think about these updates?
+
+### Referencing issues and pull requests
+
+You can bring up a list of suggested issues and pull requests within the repository by typing `#`.
