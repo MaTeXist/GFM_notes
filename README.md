@@ -10,6 +10,8 @@ In issues, pull requests, and discussions, you can call out colors within a sent
 The background color is `#ffffff` for light mode and `#000000` for dark mode.
 ```
 
+The background color is `#ffffff` for light mode and `#000000` for dark mode.
+
 Here are the currently supported color models.
 
 |Color|Syntax|Example|
@@ -23,6 +25,8 @@ Here are the currently supported color models.
 ```Markdown
 ~~我被删除了~~
 ```
+
+~~我被删除了~~
 
 ### 图像（image）
 
@@ -56,6 +60,10 @@ For example, the following code displays a sun image for light themes and a moon
 |foo|bar|baz|qux|
 ```
 
+|默认左对齐|左对齐|居中对齐|右对齐|
+|-|:-|:-:|-:|
+|foo|bar|baz|qux|
+
 单元格内容和`|`之间的空格会被忽略。
 
 ### 链接（link）
@@ -75,6 +83,8 @@ A relative link is a link that is relative to the current file. For example, if 
 ```Markdown
 [Contribution guidelines for this project](docs/CONTRIBUTING.md)
 ```
+
+[Contribution guidelines for this project](docs/CONTRIBUTING.md)
 
 GitHub will automatically transform your relative link or image path based on whatever branch you're currently on, so that the link or path always works. The path of the link will be relative to the current file. Links starting with / will be relative to the repository root. You can use all relative link operands, such as `./` and `../`. `./`表示当前目录，`../`表示上级目录。
 
