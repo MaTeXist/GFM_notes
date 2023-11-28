@@ -131,3 +131,17 @@ You can mention a person or team on GitHub by typing `@` plus their username or 
 ### Referencing issues and pull requests
 
 You can bring up a list of suggested issues and pull requests within the repository by typing `#`.
+
+### Referencing external resources
+
+If custom autolink references are configured for a repository, then references to external resources, like a JIRA issue or Zendesk ticket, convert into shortened links.
+
+### Uploading assets
+
+You can upload assets like images by dragging and dropping, selecting from a file browser, or pasting. You can upload assets to issues, pull requests, comments, and .md files in your repository.
+
+```Markdown
+[新建文本文档.txt](https://github.com/Liyu-math/GFM_notes/files/13486268/default.txt)
+```
+
+[新建文本文档.txt](https://github.com/Liyu-math/GFM_notes/files/13486268/default.txt)
