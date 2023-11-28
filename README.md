@@ -123,7 +123,7 @@ You can mention a person or team on GitHub by typing @ plus their username or te
 > Note: A person will only be notified about a mention if the person has read access to the repository and, if the repository is owned by an organization, the person is a member of the organization.
 
 ```Markdown
-@RedJACK What do you think about these updates?
+@jacksalad What do you think about these updates?
 ```
 
-@RedJACK What do you think about these updates?
+@jacksalad What do you think about these updates?
