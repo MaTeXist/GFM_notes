@@ -34,13 +34,13 @@ Here are the currently supported color models.
 
 单元格内容和`|`之间的空格会被忽略。
 
-#### 锚点
+#### 节链接（section link）
 
 ```Markdown
-[锚点](#文本格式)
+[锚点](#某标题)
 ```
 
-[锚点](#文本格式)
+
 
 
 
