@@ -24,7 +24,7 @@ GitHub's math rendering capability uses MathJax; an open source, JavaScript-base
 
 ##### 行内公式
 
-There are two options for delimiting a math expression inline with your text. You can either surround the expression with dollar symbols (`$`), or start the expression with `$\`` and end it with `\`$`. The latter syntax is useful when the expression you are writing contains characters that overlap with markdown syntax.
+There are two options for delimiting a math expression inline with your text. You can either surround the expression with dollar symbols (`$`), or start the expression with <code>$\`</code> and end it with <code>\`$</code>. The latter syntax is useful when the expression you are writing contains characters that overlap with markdown syntax.
 
 ```Markdown
 This sentence uses `$` delimiters to show math inline: $a^2+b^2=c^2$.
@@ -42,7 +42,7 @@ $$\left(\frac pq\right)\left(\frac qp\right)=(-1)^{\frac{(p-1)(q-1)}4}.$$
 
 $$\left(\frac pq\right)\left(\frac qp\right)=(-1)^{\frac{(p-1)(q-1)}4}.$$
 
-Alternatively, you can use the `\`\`\`math` code block syntax to display a math expression as a block.
+Alternatively, you can use the <code>\`\`\`math</code> code block syntax to display a math expression as a block.
 
 ````
 The Cauchy-Schwarz Inequality:
