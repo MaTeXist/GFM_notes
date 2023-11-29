@@ -136,7 +136,7 @@ GitHub will automatically transform your relative link or image path based on wh
 
 Relative links are easier for users who clone your repository. Absolute links may not work in clones of your repository - we recommend using relative links to refer to other files within your repository.
 
-## 引用块（blockquote）
+### 引用块（blockquote）
 
 ### 警报（alert）
 
@@ -210,11 +210,40 @@ The position of a footnote in your Markdown does not influence where the footnot
 
 Footnotes are not supported in wikis.
 
+### 折叠（collapse）
+
+You can streamline your Markdown by creating a collapsed section with the `<details>` tag. Within the <details> block, use the `\<summary\>` tag to let readers know what is inside.
+
+```Markdown
+<details>
+
+<summary>Tips for collapsed sections</summary>
+
+You can add a header
+
+You can add text within a collapsed section. 
+
+You can add an image or a code block, too.
+</details>
+```
+
+<details>
+
+<summary>Tips for collapsed sections</summary>
+
+You can add a header
+
+You can add text within a collapsed section. 
+
+You can add an image or a code block, too.
+</details>
+
 ### Mentioning people and teams
 
 You can mention a person or team on GitHub by typing `@` plus their username or team name. This will trigger a notification and bring their attention to the conversation. People will also receive a notification if you edit a comment to mention their username or team name. For more information about notifications, see "About notifications."
 
-> Note: A person will only be notified about a mention if the person has read access to the repository and, if the repository is owned by an organization, the person is a member of the organization.
+> [!NOTE]
+> A person will only be notified about a mention if the person has read access to the repository and, if the repository is owned by an organization, the person is a member of the organization.
 
 ```Markdown
 @jacksalad What do you think about these updates?
