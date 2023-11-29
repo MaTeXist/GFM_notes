@@ -98,15 +98,19 @@ For example, the following code displays a sun image for light themes and a moon
 
 ```Markdown
 |默认左对齐|左对齐|居中对齐|右对齐|
-|-|:-|:-:|-:|
+|---|:---|:---:|---:|
 |foo|bar|baz|qux|
 ```
 
 |默认左对齐|左对齐|居中对齐|右对齐|
-|-|:-|:-:|-:|
+|---|:---|:---:|---:|
 |foo|bar|baz|qux|
 
 单元格内容和`|`之间的空格会被忽略。
+
+The pipes `|` on either end of the table are optional.
+
+There must be at least three hyphens in each column of the header row.
 
 ### 链接（link）
 
