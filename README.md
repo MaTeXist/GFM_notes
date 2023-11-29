@@ -24,7 +24,7 @@ GitHub's math rendering capability uses MathJax; an open source, JavaScript-base
 
 ##### 行内公式
 
-There are two options for delimiting a math expression inline with your text. You can either surround the expression with dollar symbols (`$`), or start the expression with `$`` and end it with ``$`. The latter syntax is useful when the expression you are writing contains characters that overlap with markdown syntax.
+There are two options for delimiting a math expression inline with your text. You can either surround the expression with dollar symbols (`$`), or start the expression with `$\`` and end it with `\`$`. The latter syntax is useful when the expression you are writing contains characters that overlap with markdown syntax.
 
 ```Markdown
 This sentence uses `$` delimiters to show math inline: $a^2+b^2=c^2$.
@@ -34,10 +34,28 @@ This sentence uses `$` delimiters to show math inline: $a^2+b^2=c^2$.
 
 ##### 行间公式
 
+To add a math expression as a block, start a new line and delimit the expression with two dollar symbols `$$`.
+
 ```Markdown
-$$
-\left(\frac pq\right)\left(\frac qp\right)=(-1)^{\frac{(p-1)(q-1)}4}
-$$
+$$\left(\frac pq\right)\left(\frac qp\right)=(-1)^{\frac{(p-1)(q-1)}4}.$$
+```
+
+$$\left(\frac pq\right)\left(\frac qp\right)=(-1)^{\frac{(p-1)(q-1)}4}.$$
+
+Alternatively, you can use the `\`\`\`math` code block syntax to display a math expression as a block.
+
+````
+The Cauchy-Schwarz Inequality:
+
+```math
+\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)
+```
+````
+
+The Cauchy-Schwarz Inequality:
+
+```math
+\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)
 ```
 
 ### 文本格式
