@@ -145,7 +145,7 @@ Alerts are an extension of the blockquote syntax that you can use to emphasize c
 - Gists
 - Wikis
 - Releases
-- 
+
 We recommend restricting the use of alerts to one or two per article to avoid overloading the reader. Consecutive alerts should be avoided.
 
 Multiple types of alerts are available. You can add an alert with a special blockquote line that specifies the alert type, and then add the alert information in a standard blockquote immediately after.
