@@ -32,6 +32,14 @@ This sentence uses `$` delimiters to show math inline: $a^2+b^2=c^2$.
 
 This sentence uses `$` delimiters to show math inline: $a^2+b^2=c^2$.
 
+Outside a math expression, but on the same line, use `span` tags around the explicit `$`.
+
+```Markdown
+To split <span>$</span>100 in half, we calculate $100/2$.
+```
+
+To split <span>$</span>100 in half, we calculate $100/2$.
+
 ##### 行间公式
 
 To add a math expression as a block, start a new line and delimit the expression with two dollar symbols `$$`.
@@ -44,7 +52,7 @@ $$\left(\frac pq\right)\left(\frac qp\right)=(-1)^{\frac{(p-1)(q-1)}4}.$$
 
 Alternatively, you can use the <code>\`\`\`math</code> code block syntax to display a math expression as a block.
 
-````
+````Markdown
 The Cauchy-Schwarz Inequality:
 
 ```math
@@ -234,7 +242,7 @@ You can find out which keywords are valid in the [languages YAML file](https://g
 
 To display triple backticks in a fenced code block, wrap them inside quadruple backticks.
 
-`````
+`````Markdown
 ````
 ```
 Look! You can see my backticks.
@@ -242,7 +250,7 @@ Look! You can see my backticks.
 ````
 `````
 
-````
+````Markdown
 ```
 Look! You can see my backticks.
 ```
@@ -252,7 +260,7 @@ Look! You can see my backticks.
 
 ##### Mermaid
 
-````
+````Markdown
 ```mermaid
 graph TD;
     A-->B;
@@ -274,7 +282,7 @@ graph TD;
 
 ##### GeoJSON
 
-````
+````Markdown
 ```geojson
 {
   "type": "FeatureCollection",
@@ -332,7 +340,7 @@ graph TD;
 
 ##### TopoJSON
 
-````
+````Markdown
 ```topojson
 {
   "type": "Topology",
@@ -408,7 +416,7 @@ graph TD;
 
 ##### STL
 
-````
+````Markdown
 ```stl
 solid cube_corner
   facet normal 0.0 -1.0 0.0
