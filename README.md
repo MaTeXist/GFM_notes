@@ -218,6 +218,12 @@ You can upload assets like images by dragging and dropping, selecting from a fil
 
 References to a commit's SHA hash are automatically converted into shortened links to the commit on GitHub.
 
+#### A permanent link to a code snippet
+
+##### Linking to code
+
+
+
 ### 引用块（blockquote）
 
 ### 警报（alert）
