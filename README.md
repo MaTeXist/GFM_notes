@@ -220,10 +220,6 @@ References to a commit's SHA hash are automatically converted into shortened lin
 
 #### A permanent link to a code snippet
 
-##### Linking to code
-
-
-
 ### 引用块（blockquote）
 
 ### 警报（alert）
