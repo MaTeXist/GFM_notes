@@ -66,6 +66,12 @@ The Cauchy-Schwarz Inequality:
 \left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)
 ```
 
+#### 关键词（keyword）
+
+##### Linking a pull request to an issue
+
+##### Marking an issue or pull request as a duplicate
+
 ### 文本格式
 
 #### 行内代码（inline code）
